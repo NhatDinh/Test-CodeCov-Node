@@ -10,9 +10,13 @@
     "testing",
     "test"
   ],
+  "bin": {
+    "codecov": "./bin/codecov"
+  },
   "author": "The Coding Train",
   "license": "MIT",
   "devDependencies": {
+    "codecov": "^3.8.1",
     "jest": "^22.1.4"
   }
 }
